@@ -1,0 +1,328 @@
+*{
+		margin: 0px;
+	}
+
+.header {
+	background-color: rgb(89, 89, 89);
+	height: 40px;
+	width: 100%;
+}
+.dropbtn {
+    background-color: rgba(102, 153, 153, 0.0);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-family: arial;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 1050px;
+    margin-top: 7px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+    min-width: 65px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color:  white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+#logo {
+	padding: 80px;
+}
+span {
+	height: 100px;
+}
+
+.menu-bar {
+
+	display: inline-block;
+    vertical-align: top;
+    min-height: 44px;
+    padding-top: 8px;
+    font-size: 0.875rem;
+    line-height: 1.14286;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.title-bar {
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+}
+
+.menu {
+	background-color: rgb(38, 38, 38);
+	height: 180px;
+	width: 100%;
+}	
+
+.menu .logo {
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	text-decoration: none;
+}
+.booking-but {
+	background-color: rgb(255, 102, 0);
+	color: white;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+	border-color:rgb(255, 117, 26);
+	margin-top: 30px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.booking-but:hover {
+	background-color: rgb(230, 92, 0);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+.booking-but:active {
+	border-color: rgb(255, 163, 102);
+}
+.booking-but:active {
+	border-color: rgb(255, 163, 102);
+}
+
+.navigation {
+
+	height: 53px;
+	width: auto;
+	padding-left: 210px;
+	padding-right: 245px;
+	width: auto;
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+
+li, a { 
+	display: inline;
+	color: white;
+	font-family: arial;
+	text-decoration: none;
+
+}
+
+.link-li, a {
+	padding-top:15px;
+	padding-bottom: 21px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+
+#link-nav {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+#link-nav :hover {
+	background-color: white;
+	color: black;
+}
+
+#foto {
+	background-image: url(main-foto.png);
+	width: 900px;
+	height: 547px;
+	margin-left: 210px;
+	margin-right: 1290px;
+}
+
+.booking-form{
+	height: 200px;
+	width: auto;
+	background-color: rgb(255, 243, 230);
+}
+.booking-form-aside{
+	float: left;
+	width: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.booking_input {
+	margin-left: 100px;
+	margin-top: 17px;
+	color:rgb(184, 184, 148) ;
+	font-size: 16;
+	font-family: arial;
+}
+
+.booking_input1{
+	margin-left:300px;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+.booking-svyaz{
+	float: right;
+	width: 550px;
+	height: 170px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	margin-right: 50px;
+	background-color: rgb(255, 163, 102);
+}
+
+.article  {
+
+	height: 517px;
+	width: 550px;
+	text-align: justify;
+	padding-top: 30px;
+	padding-left:130px;
+	padding-right:50px;
+	margin-right: px;
+	margin-bottom:45px;
+	font-size: 14px;
+	font-family: arial;
+	vertical-align: 
+	background-color: blue;
+	line-height: 125%
+}
+.article-plus{
+	height: 200px;
+	width: auto;
+	background-color: rgb(255, 102, 0);
+}
+
+.booking-form-date{
+	padding-top: 40px;
+	margin-left: 40px;
+}
+
+
+/* специальные предложения*/
+
+.special-ofer-container{
+	background-color: rgb(179, 179, 204);
+	width: auto;
+	height: 850px;
+	margin-top: 50px;
+
+}
+.special-ofer{
+	margin-left: 130px;
+	margin-right: 130px;
+	font-family: arial;
+	color: white;
+}
+#ofer-h{
+	margin-bottom:20px;
+	margin-top: 20px; 
+}
+.special-ofer li {
+	color: black;
+	display: list-item;
+	color: white;
+}
+
+.nomera_top_foto{
+	margin: auto;
+}
+
+.nomera_opisanie {
+	padding-right: 300px;
+	padding-top: 20px;
+	height: 995px;
+
+	background-color: rgb(255, 243, 230);
+}
+.nomera_opisanie_text{
+	float: left;
+	width: 900px;
+	text-align: justify;
+	padding-left: 100px;
+	padding-right: 25px;
+	font-family: arial;
+	font-size: 16;
+
+
+}
+.nomera-opisanie_photo{
+	float: right;
+	width: 250px;
+	height: 710px;
+	margin-right: -240px;
+	padding-top: 12px;
+	background-color: white;
+}
+
+
+.asside-href{
+	margin-bottom:15px;
+	padding-top:15px;
+	padding-left: 0px;
+	padding-right:140px;
+	padding-bottom: 20px;
+	color: rgb(93, 93, 213);
+	font-size: 13px;
+}
+
+.afisha{
+	width: 100% ;
+	height: 460px;
+	background-color:rgb(245, 245, 240); 
+}
+.afisha-relaxby{
+
+}
+.afisha-minsk-video{
+	float: right;
+	width: 400px;
+	height: 445px;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	padding-right: 115px;
+	background-color: white;
+}
+
+.id{
+	background-image: url(zagluchka-karta.jpeg);
+}
+
+.futer {
+	background-color: rgb(89, 89, 89); 
+	width: auto;
+	height: 75px;
+	font-family: arial;
+	color: white;
+}
