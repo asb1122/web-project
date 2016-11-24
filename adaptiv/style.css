@@ -1,0 +1,274 @@
+body{
+	background-color: #ff9933;
+	margin:0;
+}
+
+.header {
+	width:100%;
+	height:150px;
+	background-color:rgba(238, 225, 19, 0.5);
+}
+#logo {
+width: auto;
+margin: 0;
+}
+.navigation{
+	background-color:#00802b;
+	height: 50px;
+	width: auto;
+}
+.nav {
+	margin-left: 200px;
+}	
+.nav-button-min{
+	display: none;
+}
+		.dropdown{
+		display: none;
+	}
+.nav-button {
+	background-color: #00802b; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    float: left;
+}
+
+.nav-button:hover {
+    background-color: #3e8e41;
+}
+.zakaz {
+    background-color: #ff3300;
+    color: black;
+    border: 2px solid #4CAF50;
+
+}
+
+.zakaz:hover {
+    background-color: #ff704d;
+    color: white;
+}
+.zakaz:aktiv{
+	border: #ff704d;
+}
+.slider {
+	background-color:#d9d9d9;
+	height:663px;
+
+	margin:0;
+}
+------------------------------------------------------------------
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-family: helvetica;
+  font-size: 64px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: #ffcc00;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 5s ease;
+  display: none;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 640px) {
+  .text {font-size: 11px;
+  	display:none;}
+
+	.slideshow-container{
+		max-width: 365px;
+	}
+}
+-----------------------------------------------------------------
+.mainContainer{
+	height: auto;
+	width: auto;
+}
+
+li{
+	list-style-type:none;
+	display: inline-block;
+}
+hr{
+	color: #ffcc00;
+}
+.menuposition{
+	height: auto;
+	width: 230px;
+	margin:3px;
+	background-color: #ff6600;
+}
+
+.name-position{
+	width: 100%;
+	text-align: center;
+	color: #ffff99;
+	font-family: 'Comic Sans MS';
+	font-size: 150%;
+	background-color: #ff8533;
+	margin:
+	box-shadow: 0 18px 25px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.ingridients{
+	background-color: #ff8533;
+	padding-left:10px;
+	padding-right: 10px;
+	color: #993300;
+	font-family: 'Comic Sans MS';
+	box-shadow: 0 18px 25px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.zakaz-button{
+	cursor: pointer;
+	padding: 3px 79.5px;
+	background-color: #ff3300;
+	border-color: #ff3300;
+}
+.zakaz-button:hover{
+	background-color: #ffc299;
+}
+
+.footer {
+	background-image:url(img/footer_bg.jpg);
+	width:auto;
+	height:200px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 780px){
+
+}
+@media screen and (max-width: 640px){
+
+body{
+	width: 365px;
+}
+	#logo {
+	display: none;
+	}
+	.header {
+	width:365px;
+	height:50px;
+	background-image: url(img/logo-min.jpg);
+	}
+	.nav{
+		margin: 0;
+	}
+	
+	.nav-button{
+		display: none;
+	}
+	.nav-button-min {
+	background-color: #00802b; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding:15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+	}
+
+	.slider{
+		height: auto;
+	}
+	.nav-dropdown{
+		height: 50px;
+		background-color:#00802b;
+	}
+	.menulist{
+		margin-left:0px; 
+	}
+	.menuposition{
+		margin-left:1px; 
+	}
+	----------------------------------------------------------
+	.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}-------------------------------------------------
+}
